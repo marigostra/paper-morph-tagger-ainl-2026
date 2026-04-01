@@ -1,17 +1,6 @@
 
-# Paper template
+# AINL-2026 submission
 
+This repository contains the sources of the paper "A Multi-head-based architecture for effective morphological tagging in Russian with open dictionary",
+which has been  submitted to AINL-2026  by     Skibin K., Suschenko S., Pozhidaev M and reviewed.
 
-Этот репозиторий содержит шаблон статьи в LaTeX,
-для которого настроены GitHub Actions.
-При каждом push-событии производится автоматическая сборка PDF-файла,
-что позволяет избежать необходимости установки LaTeX на локальный компьютер.
-
-
-## Как пользоваться?
-
-1. Клонируйте репозиторий на свой компьютер или сразу в свой профиль на GitHub.
-2. Внессите необходимые изменения в файлы `title.tex`, `abstract.tex` и `biblio.tex`.
-3. Сделайте коммит и отправьте изменения в репозиторий.
-4. После успешного push-события сборка PDF будет выполнена автоматически.
-5. Скачайте собранный PDF-файл из артефактов GitHub Actions.

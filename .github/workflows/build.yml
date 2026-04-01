@@ -12,7 +12,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Install LaTeX
-        run: sudo apt-get update && sudo apt-get install texlive-full
+        run: sudo apt-get update && sudo apt-get install texlive-full texlive-extra-utils zip
 
       - name: Compile LaTeX document
         run: ./.github/scripts/build.sh
@@ -21,4 +21,6 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: out
-          path: main.pdf
+          path: |
+            main.pdf
+            main.zip
